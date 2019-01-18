@@ -5437,7 +5437,7 @@ ol {
 
 .header {
   color: #1c3ed3;
-  background-color: #ffffff;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5615,7 +5615,7 @@ ol {
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #1c3ed3; }
+        color: #ffffff; }
         .main-menu > ul > li > a:hover {
           background: #1c3ed3;
           color: #ffffff;
