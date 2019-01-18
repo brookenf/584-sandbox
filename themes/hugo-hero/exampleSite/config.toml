@@ -1,8 +1,7 @@
-baseURL = "/"
+baseURL = "www.example.com"
 languageCode = "en-us"
 title = "Hugo Hero"
-theme = "hugo-hero"
-themesDir = "themes"
+themesDir = "../.."
 
 [params]
   google_analytics_id=""
