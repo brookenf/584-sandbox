@@ -6013,9 +6013,8 @@ ul.social {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  background-blend-mode: overlay;
-  background-color: #1c3ed3;
-  height: 400px;
+  background-color: none;
+  height: 750px;
   position: relative; }
   .hero-image .container {
     height: 100%;
@@ -6026,7 +6025,6 @@ ul.social {
     height: inherit; }
   .hero-image .hero-text {
     flex: 0;
-    width: 90%;
     color: #ffffff;
     margin: auto 0; }
     .hero-image .hero-text h1 {
@@ -6034,19 +6032,18 @@ ul.social {
       @media (min-width: 768px) {
         .hero-image .hero-text h1 {
           font-size: 4rem;
-          width: 80%; } }
+          width: 80%;
+          text-align: center;
+          margin: 5% 10%;
+          text-transform: uppercase; } }
     .hero-image .hero-text h2 {
       font-size: 2.2rem; }
       @media (min-width: 768px) {
         .hero-image .hero-text h2 {
           font-size: 2.4rem; } }
     .hero-image .hero-text p {
-      font-size: 1.6rem;
-      line-height: 1.3; }
-      @media (min-width: 768px) {
-        .hero-image .hero-text p {
-          font-size: 1.6rem;
-          width: 60%; } }
+      font-size: 1rem;
+      line-height: 1.4; }
   .hero-image .hero-down {
     flex: 0;
     text-align: center;
@@ -6061,7 +6058,7 @@ ul.social {
   height: 100vh; }
 
 .hero-image-setheight {
-  height: 400px; }
+  height: 750px; }
 
 .hero-image-blend-overlay {
   background-blend-mode: overlay; }
