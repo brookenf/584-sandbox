@@ -6051,8 +6051,7 @@ ul.social {
     .hero-image .hero-down:hover {
       opacity: 1; }
   .hero-image .hero-section {
-    text-transform: uppercase;
-    font-weight: normal; }
+    display: none; }
 
 .hero-image-fullscreen {
   height: 100vh; }
