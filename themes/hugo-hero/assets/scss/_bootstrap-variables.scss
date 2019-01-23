@@ -21,7 +21,7 @@ $primary: #1c3ed3;
 $secondary: #43454d;
 
 // Links
-$link-color: $primary;
+$link-color: inherit;
 $link-decoration: none;
 $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;

@@ -18,8 +18,7 @@
   }
   .hero-text {
     flex: 0;
-    width: 90%;
-    color: #ffffff;
+    color: $white;
     margin: auto 0;
     text-align: center;
     h1 {
@@ -29,6 +28,9 @@
       @include media-breakpoint-up(md) {
         font-size: 4rem;
         width: 80%;
+        text-align: center;
+        margin: 5% 10%;
+        text-transform: uppercase;
       }
     }
     h2 {
@@ -38,12 +40,8 @@
       }
     }
     p {
-      font-size: 1.6rem;
-      line-height: 1.3;
-      @include media-breakpoint-up(md) {
-        font-size: 1.6rem;
-        width: 60%;
-      }
+      font-size: 1rem;
+      line-height: 1.4;
     }
     .title-line-two {
       font-family: "Source Sans Pro";
@@ -58,8 +56,7 @@
     }
   }
   .hero-section {
-    text-transform: uppercase;
-    font-weight: normal;
+    display: none;
   }
 }
 .hero-image-fullscreen {
@@ -70,4 +67,17 @@
 }
 .hero-image-blend-overlay {
   background-blend-mode: overlay;
+}
+
+.aftermath {
+  margin: 0 auto;
+  height: 80px;
+  width: auto;
+  margin-top: 15vh;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
