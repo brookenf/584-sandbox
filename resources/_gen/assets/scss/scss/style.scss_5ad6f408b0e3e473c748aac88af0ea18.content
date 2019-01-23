@@ -6086,18 +6086,6 @@ ul.social {
 .bg-secondary {
   background-color: #43454d; }
 
-.page-services-single .content > p:first-of-type {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-bottom: 40px;
-  font-weight: 300; }
-  @media (min-width: 768px) {
-    .page-services-single .content > p:first-of-type {
-      font-size: 1.4rem;
-      line-height: 1.4;
-      margin-bottom: 40px;
-      font-weight: 300; } }
-
 .service-summary {
   display: flex;
   align-items: flex-start; }

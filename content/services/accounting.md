@@ -30,11 +30,6 @@ The workers moved the wires just enough to let the rest of their family into the
 
 “We practically had to bring them by force — after that they never came back,” Ramirez Cruz said.
 
-quote
-“We practically had to bring them by force — after that they never came back”
-
-Maritza Ramirez Cruz
-
 For weeks, Cruz Torruellas called the power authority, trying to get workers to come fix the electrical pole that had fallen. It wasn’t safe for her 11-year-old grandson, Nahuel, to play in the yard.
 
 “When [PREPA] would actually answer her call, they would tell her that the issue had already been reported,” Ramirez Cruz said. “Other times the call would ‘drop.’”
