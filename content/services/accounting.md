@@ -81,3 +81,7 @@ Puerto Rico’s power grid continues to be discussed as a main reason for the is
 And even with power now restored for much of the island, there have been set backs. A February explosion at an electric substation, which was blamed on mechanical failures, left northern parts of the island without power soon after they regained it through recovery efforts. The explosion was reported to have hit another two substations, extending the blackout further and inducing a loss of hundreds of megawatts of energy.
 
 There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. In April another two major outages took power from Puerto Ricans. On April 12, as electrical crews attempted to clear land, a tree downed a main line to San Juan and left 870,000 customers without power. Not even a week later, on April 18, other reparation attempts threw the island back into a total blackout — the first since Hurricane Maria. PREPA’s and other officials estimate that power may not be fully restored from Maria’s initial hit until May.
+
+## Interactive here
+
+{{< vimeo 266159592 >}}

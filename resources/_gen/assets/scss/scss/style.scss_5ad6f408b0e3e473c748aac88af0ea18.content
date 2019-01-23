@@ -6086,6 +6086,9 @@ ul.social {
 .bg-secondary {
   background-color: #43454d; }
 
+.page-services-single .content p {
+  margin-top: 2%; }
+
 .service-summary {
   display: flex;
   align-items: flex-start; }
