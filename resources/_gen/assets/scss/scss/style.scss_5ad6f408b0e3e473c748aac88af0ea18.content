@@ -132,7 +132,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #1c3ed3;
+  color: inherit;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -5435,6 +5435,29 @@ ol {
   .page .wrapper {
     flex: 1; }
 
+.home_page {
+  background-image: url("https://i.ytimg.com/vi/2gU62sxDGHc/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-position: 0 0;
+  max-width: 100%;
+  height: 100%;
+  transition: 1s; }
+
+.home_page_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.spacer {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-top: 20vh; }
+
 .header {
   color: #1c3ed3;
   background-color: #000000;
@@ -6062,6 +6085,17 @@ ul.social {
 .hero-image-blend-overlay {
   background-blend-mode: overlay; }
 
+.aftermath {
+  margin: 0 auto;
+  height: 80px;
+  width: auto;
+  margin-top: 15vh; }
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .bg-contain {
   background-size: contain; }
 
@@ -6091,18 +6125,32 @@ ul.social {
 
 .service-summary {
   display: flex;
-  align-items: flex-start; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .service-summary .service-image {
+    display: flex;
+    align-items: center;
     flex: 0 0 40px;
-    margin-right: 10px; }
+    margin: 0 auto; }
     .service-summary .service-image img {
-      max-width: 100%;
-      height: auto; }
+      width: 60%;
+      display: inline-block;
+      height: auto;
+      margin: 0 auto; }
   .service-summary .service-content {
-    flex: 1; }
+    flex: 1;
+    width: 100%; }
     .service-summary .service-content .service-title {
+      display: inline-block;
+      opacity: 0;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      color: white; }
     .service-summary .service-content p {
       color: #666;
       font-size: 0.9rem;

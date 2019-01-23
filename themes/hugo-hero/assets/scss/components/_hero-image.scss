@@ -2,9 +2,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  // background-blend-mode: overlay;
-  background-color: none;
-  height: 750px;
+  background-blend-mode: overlay;
+  height: 400px;
   position: relative;
   .container {
     height: 100%;
@@ -60,4 +59,17 @@
 }
 .hero-image-blend-overlay {
   background-blend-mode: overlay;
+}
+
+.aftermath {
+  margin: 0 auto;
+  height: 80px;
+  width: auto;
+  margin-top: 15vh;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
