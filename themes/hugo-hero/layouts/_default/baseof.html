@@ -30,13 +30,7 @@
     {{ end }}
   </div>
 
-  {{ partial "footer.html" . }}
-  {{ partial "sub-footer.html" . }}
-
   {{ $scripts := resources.Get "js/scripts.js" }}
-
-  {{ block "footer_js" . }}
-  {{ end }}
 
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
