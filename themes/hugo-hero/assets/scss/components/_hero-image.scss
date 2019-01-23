@@ -1,9 +1,10 @@
 .hero-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-attachment: fixed;
+  background-position: center;
   background-blend-mode: overlay;
-  background-color: $primary;
+  background-color: transparent;
   height: 400px;
   position: relative;
   .container {
@@ -20,8 +21,11 @@
     width: 90%;
     color: #ffffff;
     margin: auto 0;
+    text-align: center;
     h1 {
       font-size: 3rem;
+      text-transform: uppercase;
+      font-weight: $font-weight-thin;
       @include media-breakpoint-up(md) {
         font-size: 4rem;
         width: 80%;
@@ -41,6 +45,9 @@
         width: 60%;
       }
     }
+    .title-line-two {
+      font-family: "Source Sans Pro";
+    }
   }
   .hero-down {
     flex: 0;
@@ -59,7 +66,7 @@
   height: 100vh;
 }
 .hero-image-setheight {
-  height: 400px;
+  height: 80vh;
 }
 .hero-image-blend-overlay {
   background-blend-mode: overlay;
