@@ -36,7 +36,7 @@ themesDir = "themes"
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 4   
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

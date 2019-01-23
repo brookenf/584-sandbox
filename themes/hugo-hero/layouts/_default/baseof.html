@@ -34,8 +34,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   {{ $scripts := resources.Get "js/scripts.js" }}
 
-  <!-- {{ block "footer_js" . }}
-  {{ end }} -->
+  {{ block "footer_js" . }}
+  {{ end }}
 
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
