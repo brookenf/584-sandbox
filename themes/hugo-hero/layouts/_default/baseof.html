@@ -16,6 +16,7 @@
   {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
   <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
   {{ end }}
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" rel="stylesheet">
 
   {{ block "header_css" . }}{{ end }}
 
