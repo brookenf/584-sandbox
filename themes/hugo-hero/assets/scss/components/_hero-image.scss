@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-blend-mode: overlay;
-  background-color: $primary;
+  // background-color: $primary;
   height: 400px;
   position: relative;
   .container {
@@ -63,4 +63,17 @@
 }
 .hero-image-blend-overlay {
   background-blend-mode: overlay;
+}
+
+.aftermath {
+  margin: 0 auto;
+  height: 80px;
+  width: auto;
+  margin-top: 15vh;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

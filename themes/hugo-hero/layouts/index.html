@@ -1,12 +1,12 @@
-{{ define "title" }}Hugo Hero Theme Demo{{ end}}
+{{ define "title" }}Aftermath{{ end}}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}header-transparent{{ end }}
 
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
-<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" /> 
-<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" /> 
+<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
 <meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
 <meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
 <meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}"/>
@@ -17,13 +17,13 @@
 
 {{ define "main" }}
 
-{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading  "content" .)}}
+<!-- {{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading  "content" .)}} -->
 
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $reusablePages := $headless.Resources.ByType "page" }}
 {{ $reusablePages := sort $reusablePages ".Params.weight" }}
 {{ range first 1 $reusablePages }}
-<div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url(' {{ .Params.background | relURL }}');">
+<!-- <div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url(' {{ .Params.background | relURL }}');">
   <div class="container pt-17 pb-17">
     <div class="row">
       <div class="col-12 col-md-6 offset-md-6">
@@ -33,30 +33,30 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 {{ end }}
 
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
-<div class="container pt-8 pb-8 pb-md-14 pt-md-14">
-  <div class="row justify-content-start">
-    <div class="col-12">
-      <h2 class="text-center mb-3">Our Services</h2>
+<div class="home_page_container">
+  <div class="row justify-content-start home_page">
+    <div class="col-12 logo_container">
+      <img class="aftermath" src="{{ .Site.BaseURL }}images/aftermath.gif" alt="Aftermath" >
     </div>
-    {{ range first 6 (sort $services ".Params.weight") }}
-    <div class="col-12 col-md-4 mb-1">
+    {{ range first 5 (sort $services ".Params.weight") }}
+    <div class="col-12 col-md-2 mb-1 spacer">
       {{ .Render "summary" }}
     </div>
     {{ end }}
-    <div class="col-12 text-center">
+    <!-- <div class="col-12 text-center">
       <a class="button button-primary" href="{{ .Site.BaseURL }}services">View All Services</a>
-    </div>
+    </div> -->
   </div>
 </div>
 {{end}}
 
 {{ range first 1 (after 1 $reusablePages) }}
-<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style="background-image: url(' {{ .Params.background | relURL }}');">
+<!-- <div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style="background-image: url(' {{ .Params.background | relURL }}');">
   <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
@@ -66,7 +66,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 {{ end }}
 
 {{ end }}
