@@ -1,8 +1,9 @@
 .page-services-single {
   .content {
-    p{
+    p {
       margin-top: 2%;
     }
+
     // > p {
     //   &:first-of-type {
     //     font-size: 1.2rem;
@@ -17,5 +18,44 @@
     //     }
     //   }
     // }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* scrollama */
+
+    #scroll {
+      position: relative;
+      background: $black;
+    }
+
+    .scroll__text {
+      position: relative;
+      padding: 0 1rem;
+      margin: 0 auto;
+    }
+
+    .step {
+      margin: 2rem auto 4rem auto;
+      text-align: center;
+
+      p,
+      h1,
+      h2 {
+        color: $black;
+        transition: color 1s;
+      }
+    }
+
+    .step.is-active {
+
+      p,
+      h1,
+      h2 {
+        color: $white;
+        transition: color 1s;
+      }
+    }
   }
 }
