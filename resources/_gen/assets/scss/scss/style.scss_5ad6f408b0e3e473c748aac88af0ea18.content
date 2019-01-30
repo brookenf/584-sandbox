@@ -50,7 +50,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -132,7 +132,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: inherit;
+  color: #1c3ed3;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -5435,29 +5435,6 @@ ol {
   .page .wrapper {
     flex: 1; }
 
-.home_page {
-  background-image: url("https://i.ytimg.com/vi/2gU62sxDGHc/maxresdefault.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-position: 0 0;
-  max-width: 100%;
-  height: 100%;
-  transition: 1s; }
-
-.home_page_container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.spacer {
-  margin: 0 auto;
-  padding-left: 30px;
-  padding-top: 20vh; }
-
 .header {
   color: #1c3ed3;
   background-color: #000000;
@@ -5494,7 +5471,7 @@ ol {
   .footer .footer-title {
     color: #ffffff;
     font-size: 1.3rem;
-    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
     margin-bottom: 10px;
     flex: 0; }
     @media (min-width: 576px) {
@@ -5688,7 +5665,7 @@ ol {
         animation-delay: 0.6s; }
   .main-menu-mobile ul {
     font-size: 2rem;
-    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -5804,7 +5781,7 @@ ul.social {
   color: #1c3ed3;
   font-size: 2.4rem;
   line-height: 1.2;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system; }
   @media (min-width: 768px) {
     .title-1 {
       font-size: 3rem; } }
@@ -5812,7 +5789,7 @@ ul.social {
     color: #222222; }
 
 .title-2 {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: light;
   color: #333333;
   font-size: 2.4rem; }
@@ -5823,7 +5800,7 @@ ul.social {
     display: block; }
 
 .title-3 {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 600;
   color: #2b2b39;
   font-size: 1.9rem;
@@ -5851,10 +5828,10 @@ ul.social {
 
 .content p {
   color: #4e4e4e;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system; }
 
 .content h1 {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   line-height: 1.2;
   font-weight: 300;
   color: #333333; }
@@ -5864,7 +5841,7 @@ ul.social {
       font-weight: 300; } }
 
 .content h2 {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   line-height: 1.4;
   font-weight: 400;
   color: #333333; }
@@ -5875,13 +5852,13 @@ ul.social {
 .content h3 {
   color: #1c3ed3;
   line-height: 1.4;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 1px; }
   @media (min-width: 768px) {
     .content h3 {
       line-height: 1.4;
       letter-spacing: 1.8px;
-      font-weight: 100; } }
+      font-weight: 200; } }
 
 .intro {
   display: flex;
@@ -5905,7 +5882,7 @@ ul.social {
     color: #1c3ed3;
     font-size: 2.4rem;
     line-height: 1.2;
-    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
     width: 70%; }
     @media (min-width: 576px) {
       .intro h1 {
@@ -6035,11 +6012,9 @@ ul.social {
 .hero-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-blend-mode: overlay;
-  background-color: transparent;
-  height: 400px;
+  background-position: top center;
+  background-color: none;
+  height: 750px;
   position: relative; }
   .hero-image .container {
     height: 100%;
@@ -6051,12 +6026,9 @@ ul.social {
   .hero-image .hero-text {
     flex: 0;
     color: #ffffff;
-    margin: auto 0;
-    text-align: center; }
+    margin: auto 0; }
     .hero-image .hero-text h1 {
-      font-size: 3rem;
-      text-transform: uppercase;
-      font-weight: 100; }
+      font-size: 3rem; }
       @media (min-width: 768px) {
         .hero-image .hero-text h1 {
           font-size: 4rem;
@@ -6072,8 +6044,6 @@ ul.social {
     .hero-image .hero-text p {
       font-size: 1rem;
       line-height: 1.4; }
-    .hero-image .hero-text .title-line-two {
-      font-family: "Source Sans Pro"; }
   .hero-image .hero-down {
     flex: 0;
     text-align: center;
@@ -6087,21 +6057,10 @@ ul.social {
   height: 100vh; }
 
 .hero-image-setheight {
-  height: 80vh; }
+  height: 750px; }
 
 .hero-image-blend-overlay {
   background-blend-mode: overlay; }
-
-.aftermath {
-  margin: 0 auto;
-  height: 80px;
-  width: auto;
-  margin-top: 15vh; }
-
-.logo_container {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .bg-contain {
   background-size: contain; }
@@ -6132,32 +6091,18 @@ ul.social {
 
 .service-summary {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  align-items: flex-start; }
   .service-summary .service-image {
-    display: flex;
-    align-items: center;
     flex: 0 0 40px;
-    margin: 0 auto; }
+    margin-right: 10px; }
     .service-summary .service-image img {
-      width: 60%;
-      display: inline-block;
-      height: auto;
-      margin: 0 auto; }
+      max-width: 100%;
+      height: auto; }
   .service-summary .service-content {
-    flex: 1;
-    width: 100%; }
+    flex: 1; }
     .service-summary .service-content .service-title {
-      display: inline-block;
-      opacity: 0;
-      padding-top: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
-      font-size: 1.5rem;
-      color: white; }
+      font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+      font-size: 1.5rem; }
     .service-summary .service-content p {
       color: #666;
       font-size: 0.9rem;
@@ -6178,7 +6123,7 @@ ul.social {
     padding: 20px;
     border-bottom: 2px solid #1c3ed3; }
     .work-summary .work-content .work-title {
-      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+      font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
       font-size: 1.5rem; }
     .work-summary .work-content p {
       color: #666;
@@ -6186,7 +6131,7 @@ ul.social {
 
 .page-work-single h1.title {
   font-size: 3rem;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   color: #1c3ed3; }
 
 .page-work-single .work-image img {
