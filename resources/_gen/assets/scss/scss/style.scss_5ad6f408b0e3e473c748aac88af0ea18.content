@@ -6127,8 +6127,32 @@ ul.social {
 .bg-secondary {
   background-color: #43454d; }
 
-.page-services-single .content p {
-  margin-top: 2%; }
+.page-services-single .content {
+  /* scrollama */ }
+  .page-services-single .content p {
+    margin-top: 2%; }
+  .page-services-single .content * {
+    box-sizing: border-box; }
+  .page-services-single .content #scroll {
+    position: relative;
+    background: #000000; }
+  .page-services-single .content .scroll__text {
+    position: relative;
+    padding: 0 1rem;
+    margin: 0 auto; }
+  .page-services-single .content .step {
+    margin: 2rem auto 4rem auto;
+    text-align: center; }
+    .page-services-single .content .step p,
+    .page-services-single .content .step h1,
+    .page-services-single .content .step h2 {
+      color: #000000;
+      transition: color 1s; }
+  .page-services-single .content .step.is-active p,
+  .page-services-single .content .step.is-active h1,
+  .page-services-single .content .step.is-active h2 {
+    color: #ffffff;
+    transition: color 1s; }
 
 .service-summary {
   display: flex;

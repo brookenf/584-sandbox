@@ -18,7 +18,6 @@
 {{ define "footer_js" }}
 {{ $library := resources.Get "js/libs/library.js" }}
 {{ $services := resources.Get "js/pages/services.js" }}
-{{ $services := resources.Get "js/pages/services-interactive.js" }}
 {{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
 {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>

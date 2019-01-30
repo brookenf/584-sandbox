@@ -81,7 +81,37 @@ Puerto Rico’s power grid continues to be discussed as a main reason for the is
 And even with power now restored for much of the island, there have been set backs. A February explosion at an electric substation, which was blamed on mechanical failures, left northern parts of the island without power soon after they regained it through recovery efforts. The explosion was reported to have hit another two substations, extending the blackout further and inducing a loss of hundreds of megawatts of energy.
 
 There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. In April another two major outages took power from Puerto Ricans. On April 12, as electrical crews attempted to clear land, a tree downed a main line to San Juan and left 870,000 customers without power. Not even a week later, on April 18, other reparation attempts threw the island back into a total blackout — the first since Hurricane Maria. PREPA’s and other officials estimate that power may not be fully restored from Maria’s initial hit until May.
-
-## Interactive here
-
+<section id='scroll'>
+<div class='scroll__text'>
+  <div class='step' data-step='a'>
+    <h1>WHEN THE POWER GOES OUT</h1>
+    <p>Life without power based on the experiences of Mirna, 59, of the Naranjito Municipality, 
+who endured without power for over six months before the lights came on.</p>
+  </div>
+  <div class='step' data-step='b'>
+    <h2>September 20, 2017</h2>
+    <h2>Hurricane Maria makes landfall in Puerto Rico, causing widespread power outages.</h2>
+  </div>
+  <div class='step' data-step='c'>
+    <h2>Day 1</h2>
+    <p>You begin to assess the damage done to your property. You still have your car. You still have your roof. You know your neighbors around you might not have been so lucky.</p>
+  </div>
+  <div class='step' data-step='d'>
+    <h2>Week 1</h2>
+    <p>You're told it may take a while for your power to come back on, which is expected. You just went through this with Hurricane Irma, so nothing new here. You begin using battery-powered lanterns to get around your house at night. During the day, you are expected to be at work where you are assisting those in the community who cannot help themselves. You have canned food saved up for your meals. You luckily have your car, which means you sit in it while it charges your phone so you can receive updates from friends and family.</p>
+  </div>
+  <div class='step' data-step='e'>
+    <h2>Month 2</h2>
+    <p>Living without power has become more of a struggle. Every time you venture out to the store for batteries or a simple fan, you come home empty-handed since they are sold out. You have your family in mainland U.S. send you some supplies. You invest in a gas grill to heat your food, which sets you back financially since you now have to buy a propane tank. You've gotten better at cooking because every time you cook too much, it must be given to the dog or thrown out.</p>
+  </div>
+  <div class='step' data-step='f'>
+    <h2>Month 4</h2>
+    <p>You're still holding out on buying that expensive generator with the hopes that the power will be restored to your neighborhood any day now, just like the government has told you. You continue to carry lanterns around during the mornings and nights. You do, however, sleep a lot because once it's dark, there is little else to do.</p>
+  </div>
+  <div class='step' data-step='g'>
+    <h2>Month 6</h2>
+    <p>You finally cave and buy a generator, costing over $1,000 plus the gas it uses. You now have power for 4 - 6 hours each day to complete chores, cool your home and refrigerate your food. Soon after you buy this generator, the AEE restores power to your neighborhood. You finally buy a fridge and stock it with fresh food. The power continues to go in and out, causing you to resort to more non-perishable foods and lanterns from time to time, but it's progress.</p>
+  </div>
+</div>
+</section>
 {{< vimeo 266159592 >}}
