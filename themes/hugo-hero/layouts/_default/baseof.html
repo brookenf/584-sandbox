@@ -32,6 +32,8 @@
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
+  <script src='https://unpkg.com/scrollama'></script>
   {{ $scripts := resources.Get "js/scripts.js" }}
 
   {{ block "footer_js" . }}
@@ -45,7 +47,8 @@
 
   {{ partial "google-analytics.html" . }}
 
-  
+
 
 </body>
+
 </html>
