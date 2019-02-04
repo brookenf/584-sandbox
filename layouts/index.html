@@ -1,0 +1,43 @@
+{{ define "title" }}Aftermath{{ end}}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+{{ define "header_classes" }}header-transparent{{ end }}
+
+{{ define "meta_tags" }}
+<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
+<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+{{ end }}
+
+{{ define "main" }}
+
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $reusablePages := $headless.Resources.ByType "page" }}
+{{ $reusablePages := sort $reusablePages ".Params.weight" }}
+
+<div class="cards">
+  {{ $pages := .Site.GetPage "section" "pages" }}
+  {{ range $pages.Pages }}
+  <a href="{{.URL}}" class="card">
+    <img class="card-img" src="{{ .Params.image }}" alt="Venezuela">
+    <div class="card-base">
+      <div class="card-title">{{ .Title }}</div>
+    </div>
+    <div class="card-hover">
+      <div class="card-title">{{ .Title }}</div>
+      <div class="card-description">{{ .Description }}</div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}
