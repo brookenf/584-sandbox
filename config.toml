@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Aftermath"
 theme = "hugo-hero"
 themesDir = "themes"
+publishDir = "docs"
 
 [params]
   google_analytics_id=""

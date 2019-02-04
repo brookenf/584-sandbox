@@ -1,2 +1,4 @@
-console.log('Library')
-console.log('Services')
+console.log('Library');console.log('Services');var container=document.querySelector('#scroll');var text=container.querySelector('.scroll__text');var steps=text.querySelectorAll('.step');var scroller=scrollama();function handleStepEnter(response){console.log(response);response.element.classList.add('is-active');}
+function handleStepExit(response){console.log(response);response.element.classList.remove('is-active');}
+function init(){steps.forEach(function(step){var v=100+Math.floor(Math.random()*window.innerHeight/4);step.style.padding=v+'px 0px';});scroller.setup({step:'.scroll__text .step'}).onStepEnter(handleStepEnter).onStepExit(handleStepExit);window.addEventListener('resize',scroller.resize);}
+init();

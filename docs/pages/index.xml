@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Aftermath</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Aftermath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Feb 2019 20:10:17 -0500</lastBuildDate>
+    
+	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Story 5</title>
+      <link>/story5/</link>
+      <pubDate>Sun, 03 Feb 2019 20:10:17 -0500</pubDate>
+      
+      <guid>/story5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 4</title>
+      <link>/story4/</link>
+      <pubDate>Sun, 03 Feb 2019 20:10:06 -0500</pubDate>
+      
+      <guid>/story4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 3</title>
+      <link>/story3/</link>
+      <pubDate>Sun, 03 Feb 2019 20:09:39 -0500</pubDate>
+      
+      <guid>/story3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 2</title>
+      <link>/story2/</link>
+      <pubDate>Sun, 03 Feb 2019 20:09:28 -0500</pubDate>
+      
+      <guid>/story2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 1</title>
+      <link>/story1/</link>
+      <pubDate>Sun, 03 Feb 2019 20:09:02 -0500</pubDate>
+      
+      <guid>/story1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>No Limits Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+  Integrity &amp;amp; Performance Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei.</description>
+    </item>
+    
+  </channel>
+</rss>
