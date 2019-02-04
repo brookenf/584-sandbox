@@ -5511,10 +5511,10 @@ ol {
     transform: translate3d(0, 0, 0); }
   .cards .card:hover .card-hover .card-title {
     transition-delay: .25s;
-    font-size: 3.5rem; }
+    font-size: 3.25rem; }
   .cards .card:hover .card-hover .card-description {
     transition-delay: .35s;
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   .cards .card:hover .card-base .card-title,
   .cards .card:hover .card-base .card-description {
     opacity: 0; }
